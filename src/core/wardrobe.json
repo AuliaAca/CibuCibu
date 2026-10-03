@@ -1,0 +1,463 @@
+{
+ "_doc": "Accessory layers are placed relative to Cibu's body box (from tools/asset-pipeline/body_anchors.py). w = width as a fraction of body width; (ax, ay) = anchor point inside the item image; tx = horizontal offset from the head centre in body widths (0 = centred); ty = vertical position in the body box (0 = top of head, 1 = feet); rot = degrees. clip = item is masked to Cibu's body (manifest sprite.mask from tools/asset-pipeline/body_masks.py), so clothes wrap him and nothing sticks out.",
+ "items": {
+  "layer/beanie": {
+   "w": 0.84,
+   "ax": 0.5,
+   "ay": 0.93,
+   "tx": 0,
+   "ty": 0.25,
+   "slot": "head"
+  },
+  "layer/bucket": {
+   "w": 1.02,
+   "ax": 0.5,
+   "ay": 0.9,
+   "tx": 0,
+   "ty": 0.26,
+   "slot": "head"
+  },
+  "layer/cap": {
+   "w": 0.98,
+   "ax": 0.46,
+   "ay": 0.9,
+   "tx": 0,
+   "ty": 0.23,
+   "slot": "head"
+  },
+  "layer/beret": {
+   "w": 0.74,
+   "ax": 0.5,
+   "ay": 0.86,
+   "tx": 0.05,
+   "ty": 0.14,
+   "rot": -10,
+   "slot": "head"
+  },
+  "layer/bow": {
+   "w": 0.42,
+   "ax": 0.5,
+   "ay": 0.55,
+   "tx": 0.24,
+   "ty": 0.08,
+   "rot": 18,
+   "slot": "head"
+  },
+  "layer/headband": {
+   "w": 0.9,
+   "ax": 0.46,
+   "ay": 0.5,
+   "tx": 0.02,
+   "ty": 0.2,
+   "slot": "head"
+  },
+  "layer/headphone_w": {
+   "w": 1.04,
+   "ax": 0.5,
+   "ay": 0.62,
+   "tx": 0,
+   "ty": 0.38,
+   "slot": "head"
+  },
+  "layer/frogband": {
+   "w": 0.8,
+   "ax": 0.5,
+   "ay": 0.92,
+   "tx": 0,
+   "ty": 0.12,
+   "slot": "head"
+  },
+  "layer/sunglasses": {
+   "w": 0.66,
+   "ax": 0.5,
+   "ay": 0.45,
+   "tx": 0,
+   "ty": 0.46,
+   "slot": "eyes"
+  },
+  "layer/scarf": {
+   "w": 0.6,
+   "ax": 0.5,
+   "ay": 0.25,
+   "tx": 0,
+   "ty": 0.8,
+   "slot": "neck"
+  },
+  "layer/kerchief": {
+   "w": 0.5,
+   "ax": 0.5,
+   "ay": 0.3,
+   "tx": 0,
+   "ty": 0.8,
+   "slot": "neck"
+  },
+  "layer/pleated": {
+   "w": 0.72,
+   "ax": 0.5,
+   "ay": 0.15,
+   "tx": 0,
+   "ty": 0.74,
+   "slot": "waist"
+  },
+  "layer/skirt": {
+   "w": 0.72,
+   "ax": 0.5,
+   "ay": 0.15,
+   "tx": 0,
+   "ty": 0.74,
+   "slot": "waist"
+  },
+  "acc/tiara": {
+   "w": 0.62,
+   "ax": 0.5,
+   "ay": 0.92,
+   "tx": 0,
+   "ty": 0.08,
+   "slot": "head"
+  },
+  "acc/crown": {
+   "w": 0.42,
+   "ax": 0.5,
+   "ay": 0.94,
+   "tx": 0.05,
+   "ty": 0.06,
+   "rot": 8,
+   "slot": "head"
+  },
+  "acc/round-glasses": {
+   "w": 0.68,
+   "ax": 0.5,
+   "ay": 0.52,
+   "tx": 0,
+   "ty": 0.46,
+   "slot": "eyes"
+  },
+  "acc/bowtie": {
+   "w": 0.34,
+   "ax": 0.5,
+   "ay": 0.5,
+   "tx": 0,
+   "ty": 0.72,
+   "slot": "neck"
+  },
+  "acc/pearls": {
+   "w": 0.56,
+   "ax": 0.5,
+   "ay": 0.2,
+   "tx": 0,
+   "ty": 0.7,
+   "slot": "neck"
+  },
+  "acc/nightcap": {
+   "w": 0.95,
+   "ax": 0.42,
+   "ay": 0.84,
+   "tx": 0.03,
+   "ty": 0.26,
+   "rot": -6,
+   "slot": "head"
+  },
+  "acc/star-clips": {
+   "w": 0.72,
+   "ax": 0.5,
+   "ay": 0.5,
+   "tx": 0,
+   "ty": 0.1,
+   "slot": "head"
+  },
+  "acc/gold-chain": {
+   "w": 0.56,
+   "ax": 0.5,
+   "ay": 0.12,
+   "tx": 0,
+   "ty": 0.71,
+   "slot": "neck"
+  },
+  "acc/bandana": {
+   "w": 0.9,
+   "ax": 0.48,
+   "ay": 0.8,
+   "tx": 0,
+   "ty": 0.25,
+   "slot": "head"
+  },
+  "acc/sash-pink": {
+   "w": 1.3,
+   "ax": 0.5,
+   "ay": 0.5,
+   "tx": 0,
+   "ty": 0.78,
+   "rot": -17,
+   "slot": "waist",
+   "clip": true
+  },
+  "acc/beanie-navy": {
+   "w": 0.88,
+   "ax": 0.5,
+   "ay": 0.97,
+   "tx": 0,
+   "ty": 0.27,
+   "slot": "head"
+  },
+  "acc/beanie-blue": {
+   "w": 0.88,
+   "ax": 0.5,
+   "ay": 0.97,
+   "tx": 0,
+   "ty": 0.27,
+   "slot": "head"
+  },
+  "acc/beanie-sage": {
+   "w": 0.88,
+   "ax": 0.5,
+   "ay": 0.97,
+   "tx": 0,
+   "ty": 0.27,
+   "slot": "head"
+  },
+  "acc/cap-red": {
+   "w": 1.0,
+   "ax": 0.5,
+   "ay": 0.92,
+   "tx": 0,
+   "ty": 0.26,
+   "slot": "head"
+  },
+  "acc/cap-back": {
+   "w": 1.0,
+   "ax": 0.5,
+   "ay": 0.92,
+   "tx": 0,
+   "ty": 0.26,
+   "slot": "head"
+  },
+  "acc/bucket-peach": {
+   "w": 1.08,
+   "ax": 0.5,
+   "ay": 0.95,
+   "tx": 0,
+   "ty": 0.32,
+   "slot": "head"
+  },
+  "acc/newsboy": {
+   "w": 1.0,
+   "ax": 0.5,
+   "ay": 0.93,
+   "tx": 0,
+   "ty": 0.26,
+   "slot": "head",
+   "rot": -5
+  },
+  "acc/sweatband": {
+   "w": 1.15,
+   "ax": 0.5,
+   "ay": 0.5,
+   "tx": 0,
+   "ty": 0.2,
+   "rot": -4,
+   "slot": "head",
+   "clip": true
+  },
+  "acc/sweater-cream": {
+   "w": 1.5,
+   "ax": 0.5,
+   "ay": 0,
+   "tx": 0,
+   "ty": 0.63,
+   "slot": "waist",
+   "clip": true
+  },
+  "acc/pajama-blue": {
+   "w": 1.5,
+   "ax": 0.5,
+   "ay": 0,
+   "tx": 0,
+   "ty": 0.63,
+   "slot": "waist",
+   "clip": true
+  },
+  "acc/tee-stripe": {
+   "w": 1.5,
+   "ax": 0.5,
+   "ay": 0,
+   "tx": 0,
+   "ty": 0.63,
+   "slot": "waist",
+   "clip": true
+  },
+  "acc/robe-royal": {
+   "w": 1.5,
+   "ax": 0.5,
+   "ay": 0,
+   "tx": 0,
+   "ty": 0.63,
+   "slot": "waist",
+   "clip": true
+  },
+  "acc/sling-bag": {
+   "w": 1.3,
+   "ax": 0.5,
+   "ay": 0.5,
+   "tx": 0,
+   "ty": 0.8,
+   "slot": "waist",
+   "clip": true
+  },
+  "acc/headphones": {
+   "w": 1.2,
+   "ax": 0.5,
+   "ay": 0.675,
+   "tx": 0,
+   "ty": 0.44,
+   "slot": "head"
+  },
+  "acc/spike-band": {
+   "w": 0.98,
+   "ax": 0.5,
+   "ay": 0.62,
+   "tx": 0,
+   "ty": 0.2,
+   "slot": "head"
+  },
+  "acc/silver-chain": {
+   "w": 0.56,
+   "ax": 0.5,
+   "ay": 0.12,
+   "tx": 0,
+   "ty": 0.71,
+   "slot": "neck"
+  }
+ },
+ "extras": {
+  "acc/tiara": {
+   "file": "/assets/wear-extra/tiara.svg",
+   "w": 220,
+   "h": 120
+  },
+  "acc/crown": {
+   "file": "/assets/wear-extra/crown.svg",
+   "w": 180,
+   "h": 150
+  },
+  "acc/round-glasses": {
+   "file": "/assets/wear-extra/round-glasses.svg",
+   "w": 240,
+   "h": 100
+  },
+  "acc/bowtie": {
+   "file": "/assets/wear-extra/bowtie.svg",
+   "w": 200,
+   "h": 110
+  },
+  "acc/pearls": {
+   "file": "/assets/wear-extra/pearls.svg",
+   "w": 220,
+   "h": 110
+  },
+  "acc/nightcap": {
+   "file": "/assets/wear-extra/nightcap.svg",
+   "w": 240,
+   "h": 190
+  },
+  "acc/star-clips": {
+   "file": "/assets/wear-extra/star-clips.svg",
+   "w": 200,
+   "h": 90
+  },
+  "acc/gold-chain": {
+   "file": "/assets/wear-extra/gold-chain.svg",
+   "w": 220,
+   "h": 110
+  },
+  "acc/bandana": {
+   "file": "/assets/wear-extra/bandana.svg",
+   "w": 270,
+   "h": 170
+  },
+  "acc/sash-pink": {
+   "file": "/assets/wear-extra/sash-pink.svg",
+   "w": 400,
+   "h": 110
+  },
+  "acc/beanie-navy": {
+   "file": "/assets/wear-extra/beanie-navy.svg",
+   "w": 260,
+   "h": 194
+  },
+  "acc/beanie-blue": {
+   "file": "/assets/wear-extra/beanie-blue.svg",
+   "w": 260,
+   "h": 194
+  },
+  "acc/beanie-sage": {
+   "file": "/assets/wear-extra/beanie-sage.svg",
+   "w": 260,
+   "h": 172
+  },
+  "acc/cap-red": {
+   "file": "/assets/wear-extra/cap-red.svg",
+   "w": 280,
+   "h": 160
+  },
+  "acc/cap-back": {
+   "file": "/assets/wear-extra/cap-back.svg",
+   "w": 280,
+   "h": 160
+  },
+  "acc/bucket-peach": {
+   "file": "/assets/wear-extra/bucket-peach.svg",
+   "w": 300,
+   "h": 176
+  },
+  "acc/newsboy": {
+   "file": "/assets/wear-extra/newsboy.svg",
+   "w": 290,
+   "h": 160
+  },
+  "acc/sweatband": {
+   "file": "/assets/wear-extra/sweatband.svg",
+   "w": 400,
+   "h": 44
+  },
+  "acc/sweater-cream": {
+   "file": "/assets/wear-extra/sweater-cream.svg",
+   "w": 400,
+   "h": 170
+  },
+  "acc/pajama-blue": {
+   "file": "/assets/wear-extra/pajama-blue.svg",
+   "w": 400,
+   "h": 170
+  },
+  "acc/tee-stripe": {
+   "file": "/assets/wear-extra/tee-stripe.svg",
+   "w": 400,
+   "h": 170
+  },
+  "acc/robe-royal": {
+   "file": "/assets/wear-extra/robe-royal.svg",
+   "w": 400,
+   "h": 170
+  },
+  "acc/sling-bag": {
+   "file": "/assets/wear-extra/sling-bag.svg",
+   "w": 400,
+   "h": 170
+  },
+  "acc/headphones": {
+   "file": "/assets/wear-extra/headphones.svg",
+   "w": 300,
+   "h": 160
+  },
+  "acc/spike-band": {
+   "file": "/assets/wear-extra/spike-band.svg",
+   "w": 280,
+   "h": 70
+  },
+  "acc/silver-chain": {
+   "file": "/assets/wear-extra/silver-chain.svg",
+   "w": 220,
+   "h": 110
+  }
+ }
+}

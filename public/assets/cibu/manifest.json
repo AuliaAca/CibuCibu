@@ -1,0 +1,1518 @@
+{
+  "version": 1,
+  "scale": 4,
+  "source": "official Cibu character reference sheet",
+  "sprites": {
+    "expression/smug": {
+      "file": "/assets/cibu/expression/smug.webp",
+      "label": "Ngeledek / Nyebelin",
+      "group": "expression",
+      "w": 304,
+      "h": 296,
+      "anchor": [
+        0.5,
+        0.9324
+      ],
+      "body": [
+        0.0789,
+        0.1858,
+        0.9342,
+        0.9223,
+        0.5205
+      ],
+      "mask": "/assets/cibu/mask/expression_smug.png"
+    },
+    "expression/smirk": {
+      "file": "/assets/cibu/expression/smirk.webp",
+      "label": "Senyum Sinis",
+      "group": "expression",
+      "w": 300,
+      "h": 292,
+      "anchor": [
+        0.5,
+        0.9315
+      ],
+      "body": [
+        0.08,
+        0.1747,
+        0.9233,
+        0.9247,
+        0.5224
+      ],
+      "mask": "/assets/cibu/mask/expression_smirk.png"
+    },
+    "expression/genz": {
+      "file": "/assets/cibu/expression/genz.webp",
+      "label": "Ejekan Gen Z",
+      "group": "expression",
+      "w": 300,
+      "h": 292,
+      "anchor": [
+        0.5,
+        0.9315
+      ],
+      "body": [
+        0.0833,
+        0.1781,
+        0.92,
+        0.9247,
+        0.484
+      ],
+      "mask": "/assets/cibu/mask/expression_genz.png"
+    },
+    "expression/crosseyed": {
+      "file": "/assets/cibu/expression/crosseyed.webp",
+      "label": "Mata Juling",
+      "group": "expression",
+      "w": 292,
+      "h": 292,
+      "anchor": [
+        0.5,
+        0.9315
+      ],
+      "body": [
+        0.0719,
+        0.1781,
+        0.9212,
+        0.9247,
+        0.5027
+      ],
+      "mask": "/assets/cibu/mask/expression_crosseyed.png"
+    },
+    "expression/tongue": {
+      "file": "/assets/cibu/expression/tongue.webp",
+      "label": "Tongue Out",
+      "group": "expression",
+      "w": 284,
+      "h": 292,
+      "anchor": [
+        0.5,
+        0.9315
+      ],
+      "body": [
+        0.0775,
+        0.1747,
+        0.919,
+        0.9247,
+        0.5073
+      ],
+      "mask": "/assets/cibu/mask/expression_tongue.png"
+    },
+    "expression/lazy": {
+      "file": "/assets/cibu/expression/lazy.webp",
+      "label": "Mager Banget",
+      "group": "expression",
+      "w": 308,
+      "h": 296,
+      "anchor": [
+        0.5,
+        0.9324
+      ],
+      "body": [
+        0.0682,
+        0.1892,
+        0.9318,
+        0.9257,
+        0.4937
+      ],
+      "mask": "/assets/cibu/mask/expression_lazy.png"
+    },
+    "expression/sleepy": {
+      "file": "/assets/cibu/expression/sleepy.webp",
+      "label": "Ngantuk",
+      "group": "expression",
+      "w": 292,
+      "h": 292,
+      "anchor": [
+        0.5,
+        0.9315
+      ],
+      "body": [
+        0.0822,
+        0.1986,
+        0.911,
+        0.9247,
+        0.4872
+      ],
+      "mask": "/assets/cibu/mask/expression_sleepy.png"
+    },
+    "expression/annoyed": {
+      "file": "/assets/cibu/expression/annoyed.webp",
+      "label": "Kesel / Bad Mood",
+      "group": "expression",
+      "w": 288,
+      "h": 292,
+      "anchor": [
+        0.5,
+        0.9315
+      ],
+      "body": [
+        0.0799,
+        0.1747,
+        0.9201,
+        0.9247,
+        0.4883
+      ],
+      "mask": "/assets/cibu/mask/expression_annoyed.png"
+    },
+    "expression/frown": {
+      "file": "/assets/cibu/expression/frown.webp",
+      "label": "Cemberut",
+      "group": "expression",
+      "w": 288,
+      "h": 292,
+      "anchor": [
+        0.5,
+        0.9315
+      ],
+      "body": [
+        0.1007,
+        0.1781,
+        0.9236,
+        0.9247,
+        0.5025
+      ],
+      "mask": "/assets/cibu/mask/expression_frown.png"
+    },
+    "expression/pout": {
+      "file": "/assets/cibu/expression/pout.webp",
+      "label": "Pouting",
+      "group": "expression",
+      "w": 292,
+      "h": 296,
+      "anchor": [
+        0.5,
+        0.9324
+      ],
+      "body": [
+        0.0925,
+        0.1824,
+        0.9212,
+        0.9257,
+        0.4797
+      ],
+      "mask": "/assets/cibu/mask/expression_pout.png"
+    },
+    "expression/shocked": {
+      "file": "/assets/cibu/expression/shocked.webp",
+      "label": "Kaget",
+      "group": "expression",
+      "w": 296,
+      "h": 284,
+      "anchor": [
+        0.5,
+        0.9296
+      ],
+      "body": [
+        0.098,
+        0.1796,
+        0.9189,
+        0.9296,
+        0.4809
+      ],
+      "mask": "/assets/cibu/mask/expression_shocked.png"
+    },
+    "expression/panic": {
+      "file": "/assets/cibu/expression/panic.webp",
+      "label": "Panik",
+      "group": "expression",
+      "w": 296,
+      "h": 280,
+      "anchor": [
+        0.5,
+        0.9286
+      ],
+      "body": [
+        0.0743,
+        0.1714,
+        0.9122,
+        0.9286,
+        0.4866
+      ],
+      "mask": "/assets/cibu/mask/expression_panic.png"
+    },
+    "expression/sad": {
+      "file": "/assets/cibu/expression/sad.webp",
+      "label": "Sedih",
+      "group": "expression",
+      "w": 292,
+      "h": 292,
+      "anchor": [
+        0.5,
+        0.9315
+      ],
+      "body": [
+        0.0993,
+        0.1815,
+        0.9212,
+        0.9247,
+        0.4961
+      ],
+      "mask": "/assets/cibu/mask/expression_sad.png"
+    },
+    "expression/crying": {
+      "file": "/assets/cibu/expression/crying.webp",
+      "label": "Nangis Drama",
+      "group": "expression",
+      "w": 292,
+      "h": 288,
+      "anchor": [
+        0.5,
+        0.9306
+      ],
+      "body": [
+        0.0925,
+        0.1771,
+        0.9178,
+        0.9167,
+        0.4826
+      ],
+      "mask": "/assets/cibu/mask/expression_crying.png"
+    },
+    "expression/touched": {
+      "file": "/assets/cibu/expression/touched.webp",
+      "label": "Terharu",
+      "group": "expression",
+      "w": 292,
+      "h": 288,
+      "anchor": [
+        0.5,
+        0.9306
+      ],
+      "body": [
+        0.0822,
+        0.1736,
+        0.9212,
+        0.9167,
+        0.4929
+      ],
+      "mask": "/assets/cibu/mask/expression_touched.png"
+    },
+    "expression/focus": {
+      "file": "/assets/cibu/expression/focus.webp",
+      "label": "Fokus Serius",
+      "group": "expression",
+      "w": 296,
+      "h": 292,
+      "anchor": [
+        0.5,
+        0.9726
+      ],
+      "body": [
+        0.0878,
+        0.1952,
+        0.9189,
+        0.9144,
+        0.4963
+      ],
+      "mask": "/assets/cibu/mask/expression_focus.png"
+    },
+    "expression/thinking": {
+      "file": "/assets/cibu/expression/thinking.webp",
+      "label": "Thinking",
+      "group": "expression",
+      "w": 276,
+      "h": 288,
+      "anchor": [
+        0.5,
+        0.9306
+      ],
+      "body": [
+        0.1123,
+        0.1806,
+        0.913,
+        0.9201,
+        0.5253
+      ],
+      "mask": "/assets/cibu/mask/expression_thinking.png"
+    },
+    "expression/confused": {
+      "file": "/assets/cibu/expression/confused.webp",
+      "label": "Bingung",
+      "group": "expression",
+      "w": 292,
+      "h": 288,
+      "anchor": [
+        0.5,
+        0.9306
+      ],
+      "body": [
+        0.0753,
+        0.1944,
+        0.9144,
+        0.9236,
+        0.4757
+      ],
+      "mask": "/assets/cibu/mask/expression_confused.png"
+    },
+    "expression/spirited": {
+      "file": "/assets/cibu/expression/spirited.webp",
+      "label": "Semangat!",
+      "group": "expression",
+      "w": 300,
+      "h": 288,
+      "anchor": [
+        0.5,
+        0.9306
+      ],
+      "body": [
+        0.08,
+        0.184,
+        0.93,
+        0.9236,
+        0.4875
+      ],
+      "mask": "/assets/cibu/mask/expression_spirited.png"
+    },
+    "expression/finally": {
+      "file": "/assets/cibu/expression/finally.webp",
+      "label": "Akhirnya!",
+      "group": "expression",
+      "w": 304,
+      "h": 288,
+      "anchor": [
+        0.5,
+        0.9306
+      ],
+      "body": [
+        0.0757,
+        0.1875,
+        0.9211,
+        0.9236,
+        0.4658
+      ],
+      "mask": "/assets/cibu/mask/expression_finally.png"
+    },
+    "expression/proud": {
+      "file": "/assets/cibu/expression/proud.webp",
+      "label": "Proud",
+      "group": "expression",
+      "w": 312,
+      "h": 300,
+      "anchor": [
+        0.5,
+        0.9333
+      ],
+      "body": [
+        0.0769,
+        0.1733,
+        0.9263,
+        0.9167,
+        0.4964
+      ],
+      "mask": "/assets/cibu/mask/expression_proud.png"
+    },
+    "expression/aesthetic": {
+      "file": "/assets/cibu/expression/aesthetic.webp",
+      "label": "Aesthetic Pose",
+      "group": "expression",
+      "w": 292,
+      "h": 288,
+      "anchor": [
+        0.5,
+        0.9306
+      ],
+      "body": [
+        0.1062,
+        0.1806,
+        0.9178,
+        0.9167,
+        0.4944
+      ],
+      "mask": "/assets/cibu/mask/expression_aesthetic.png"
+    },
+    "expression/omg": {
+      "file": "/assets/cibu/expression/omg.webp",
+      "label": "OMG!",
+      "group": "expression",
+      "w": 292,
+      "h": 288,
+      "anchor": [
+        0.5,
+        0.9306
+      ],
+      "body": [
+        0.0959,
+        0.1944,
+        0.9212,
+        0.9201,
+        0.4827
+      ],
+      "mask": "/assets/cibu/mask/expression_omg.png"
+    },
+    "expression/love": {
+      "file": "/assets/cibu/expression/love.webp",
+      "label": "Love You!",
+      "group": "expression",
+      "w": 296,
+      "h": 292,
+      "anchor": [
+        0.5,
+        0.9315
+      ],
+      "body": [
+        0.0777,
+        0.1918,
+        0.9223,
+        0.9178,
+        0.5061
+      ],
+      "mask": "/assets/cibu/mask/expression_love.png"
+    },
+    "expression/cool": {
+      "file": "/assets/cibu/expression/cool.webp",
+      "label": "Cool Banget",
+      "group": "expression",
+      "w": 296,
+      "h": 292,
+      "anchor": [
+        0.5,
+        0.9315
+      ],
+      "body": [
+        0.0912,
+        0.1747,
+        0.9189,
+        0.9178,
+        0.4681
+      ],
+      "mask": "/assets/cibu/mask/expression_cool.png"
+    },
+    "focus_start/heh": {
+      "file": "/assets/cibu/focus_start/heh.webp",
+      "label": "Heh, fokus dong",
+      "group": "focus_start",
+      "w": 304,
+      "h": 308,
+      "anchor": [
+        0.5,
+        0.9351
+      ],
+      "body": [
+        0.102,
+        0.3279,
+        0.8191,
+        0.9318,
+        0.436
+      ],
+      "mask": "/assets/cibu/mask/focus_start_heh.png"
+    },
+    "focus_start/ngapain": {
+      "file": "/assets/cibu/focus_start/ngapain.webp",
+      "label": "Ngapain sih?",
+      "group": "focus_start",
+      "w": 276,
+      "h": 328,
+      "anchor": [
+        0.4928,
+        0.939
+      ],
+      "body": [
+        0.1014,
+        0.3384,
+        0.9022,
+        0.9268,
+        0.4848
+      ],
+      "mask": "/assets/cibu/mask/focus_start_ngapain.png"
+    },
+    "focus_start/fokuslah": {
+      "file": "/assets/cibu/focus_start/fokuslah.webp",
+      "label": "Fokus lah bro",
+      "group": "focus_start",
+      "w": 276,
+      "h": 340,
+      "anchor": [
+        0.5,
+        0.9412
+      ],
+      "body": [
+        0.1123,
+        0.3618,
+        0.913,
+        0.9265,
+        0.4859
+      ],
+      "mask": "/assets/cibu/mask/focus_start_fokuslah.png"
+    },
+    "focus_start/nodistract": {
+      "file": "/assets/cibu/focus_start/nodistract.webp",
+      "label": "Jangan distrack!",
+      "group": "focus_start",
+      "w": 276,
+      "h": 312,
+      "anchor": [
+        0.5,
+        0.9359
+      ],
+      "body": [
+        0.1051,
+        0.3077,
+        0.913,
+        0.9231,
+        0.4829
+      ],
+      "mask": "/assets/cibu/mask/focus_start_nodistract.png"
+    },
+    "focus_start/timer": {
+      "file": "/assets/cibu/focus_start/timer.webp",
+      "label": "Udah timer loh!",
+      "group": "focus_start",
+      "w": 284,
+      "h": 356,
+      "anchor": [
+        0.4789,
+        0.9438
+      ],
+      "body": [
+        0.0951,
+        0.4017,
+        0.8768,
+        0.941,
+        0.4609
+      ],
+      "mask": "/assets/cibu/mask/focus_start_timer.png"
+    },
+    "focusing/okefine": {
+      "file": "/assets/cibu/focusing/okefine.webp",
+      "label": "Oke fine, gw temenin",
+      "group": "focusing",
+      "w": 324,
+      "h": 256,
+      "anchor": [
+        0.5,
+        0.9219
+      ],
+      "body": [
+        0.1265,
+        0.1758,
+        0.9136,
+        0.8594,
+        0.548
+      ],
+      "mask": "/assets/cibu/mask/focusing_okefine.png"
+    },
+    "focusing/serius": {
+      "file": "/assets/cibu/focusing/serius.webp",
+      "label": "Serius dikit lah",
+      "group": "focusing",
+      "w": 316,
+      "h": 272,
+      "anchor": [
+        0.5,
+        0.9265
+      ],
+      "body": [
+        0.2911,
+        0.3676,
+        0.8354,
+        0.7537,
+        0.5666
+      ],
+      "mask": "/assets/cibu/mask/focusing_serius.png"
+    },
+    "focusing/study": {
+      "file": "/assets/cibu/focusing/study.webp",
+      "label": "Study mode ON",
+      "group": "focusing",
+      "w": 340,
+      "h": 264,
+      "anchor": [
+        0.5,
+        0.9242
+      ],
+      "body": [
+        0.2382,
+        0.1667,
+        0.8794,
+        0.7765,
+        0.5357
+      ],
+      "mask": "/assets/cibu/mask/focusing_study.png"
+    },
+    "focusing/maximal": {
+      "file": "/assets/cibu/focusing/maximal.webp",
+      "label": "Fokus maksimal!",
+      "group": "focusing",
+      "w": 336,
+      "h": 284,
+      "anchor": [
+        0.5,
+        0.9296
+      ],
+      "body": [
+        0.1012,
+        0.1831,
+        0.7619,
+        0.8204,
+        0.4577
+      ],
+      "mask": "/assets/cibu/mask/focusing_maximal.png"
+    },
+    "focusing/donotdisturb": {
+      "file": "/assets/cibu/focusing/donotdisturb.webp",
+      "label": "Jangan ganggu!",
+      "group": "focusing",
+      "w": 328,
+      "h": 296,
+      "anchor": [
+        0.5061,
+        0.9324
+      ],
+      "body": [
+        0.1677,
+        0.2703,
+        0.8079,
+        0.8784,
+        0.5081
+      ],
+      "mask": "/assets/cibu/mask/focusing_donotdisturb.png"
+    },
+    "almost/bentar": {
+      "file": "/assets/cibu/almost/bentar.webp",
+      "label": "Wahh bentar lagi!",
+      "group": "almost",
+      "w": 292,
+      "h": 268,
+      "anchor": [
+        0.5,
+        0.9254
+      ],
+      "body": [
+        0.0788,
+        0.194,
+        0.9178,
+        0.9179,
+        0.4813
+      ],
+      "mask": "/assets/cibu/mask/almost_bentar.png"
+    },
+    "almost/tinggaldikit": {
+      "file": "/assets/cibu/almost/tinggaldikit.webp",
+      "label": "Tinggal dikit!",
+      "group": "almost",
+      "w": 324,
+      "h": 292,
+      "anchor": [
+        0.5185,
+        0.9315
+      ],
+      "body": [
+        0.1852,
+        0.2397,
+        0.9259,
+        0.9315,
+        0.5429
+      ],
+      "mask": "/assets/cibu/mask/almost_tinggaldikit.png"
+    },
+    "almost/almostthere": {
+      "file": "/assets/cibu/almost/almostthere.webp",
+      "label": "Almost there!",
+      "group": "almost",
+      "w": 304,
+      "h": 288,
+      "anchor": [
+        0.5,
+        0.9306
+      ],
+      "body": [
+        0.0724,
+        0.1875,
+        0.9211,
+        0.9167,
+        0.4827
+      ],
+      "mask": "/assets/cibu/mask/almost_almostthere.png"
+    },
+    "almost/semangatdikit": {
+      "file": "/assets/cibu/almost/semangatdikit.webp",
+      "label": "Semangat dikit lagi!",
+      "group": "almost",
+      "w": 304,
+      "h": 284,
+      "anchor": [
+        0.5,
+        0.9296
+      ],
+      "body": [
+        0.0789,
+        0.1866,
+        0.8684,
+        0.9296,
+        0.4557
+      ],
+      "mask": "/assets/cibu/mask/almost_semangatdikit.png"
+    },
+    "complete/yeay": {
+      "file": "/assets/cibu/complete/yeay.webp",
+      "label": "YEAY! LO KEREN!",
+      "group": "complete",
+      "w": 320,
+      "h": 328,
+      "anchor": [
+        0.5125,
+        0.9146
+      ],
+      "body": [
+        0.1,
+        0.3079,
+        0.9219,
+        0.9024,
+        0.5416
+      ],
+      "mask": "/assets/cibu/mask/complete_yeay.png"
+    },
+    "complete/proudofyou": {
+      "file": "/assets/cibu/complete/proudofyou.webp",
+      "label": "Proud of youu!",
+      "group": "complete",
+      "w": 288,
+      "h": 300,
+      "anchor": [
+        0.5,
+        0.9333
+      ],
+      "body": [
+        0.0764,
+        0.29,
+        0.9167,
+        0.9233,
+        0.4929
+      ],
+      "mask": "/assets/cibu/mask/complete_proudofyou.png"
+    },
+    "complete/gokil": {
+      "file": "/assets/cibu/complete/gokil.webp",
+      "label": "GOKIL! FOKUS BANGET!",
+      "group": "complete",
+      "w": 320,
+      "h": 308,
+      "anchor": [
+        0.4688,
+        0.9351
+      ],
+      "body": [
+        0.0844,
+        0.3052,
+        0.85,
+        0.9188,
+        0.4112
+      ],
+      "mask": "/assets/cibu/mask/complete_gokil.png"
+    },
+    "complete/bestie": {
+      "file": "/assets/cibu/complete/bestie.webp",
+      "label": "BESTIE, MAKASIH YA!",
+      "group": "complete",
+      "w": 308,
+      "h": 296,
+      "anchor": [
+        0.5,
+        0.9324
+      ],
+      "body": [
+        0.0909,
+        0.2534,
+        0.9286,
+        0.9155,
+        0.5092
+      ],
+      "mask": "/assets/cibu/mask/complete_bestie.png"
+    },
+    "complete/youdidit": {
+      "file": "/assets/cibu/complete/youdidit.webp",
+      "label": "YOU DID IT!",
+      "group": "complete",
+      "w": 292,
+      "h": 304,
+      "anchor": [
+        0.5,
+        0.9342
+      ],
+      "body": [
+        0.0753,
+        0.2467,
+        0.9247,
+        0.9178,
+        0.4847
+      ],
+      "mask": "/assets/cibu/mask/complete_youdidit.png"
+    },
+    "pose/sit": {
+      "file": "/assets/cibu/pose/sit.webp",
+      "label": "Duduk Santai",
+      "group": "pose",
+      "w": 244,
+      "h": 220,
+      "anchor": [
+        0.5,
+        0.9636
+      ],
+      "body": [
+        0.0943,
+        0.1864,
+        0.8934,
+        0.9045,
+        0.5387
+      ],
+      "mask": "/assets/cibu/mask/pose_sit.png"
+    },
+    "pose/sleep": {
+      "file": "/assets/cibu/pose/sleep.webp",
+      "label": "Tidur",
+      "group": "pose",
+      "w": 272,
+      "h": 180,
+      "anchor": [
+        0.5,
+        0.9556
+      ],
+      "body": [
+        0.1471,
+        0.3333,
+        0.7132,
+        0.8889,
+        0.4377
+      ],
+      "mask": "/assets/cibu/mask/pose_sleep.png"
+    },
+    "pose/walk": {
+      "file": "/assets/cibu/pose/walk.webp",
+      "label": "Jalan",
+      "group": "pose",
+      "w": 228,
+      "h": 224,
+      "anchor": [
+        0.5,
+        0.9643
+      ],
+      "body": [
+        0.1184,
+        0.192,
+        0.9035,
+        0.8973,
+        0.5111
+      ],
+      "mask": "/assets/cibu/mask/pose_walk.png"
+    },
+    "pose/jump": {
+      "file": "/assets/cibu/pose/jump.webp",
+      "label": "Lompat",
+      "group": "pose",
+      "w": 268,
+      "h": 264,
+      "anchor": [
+        0.5,
+        0.9242
+      ],
+      "body": [
+        0.1604,
+        0.1591,
+        0.9104,
+        0.8636,
+        0.5019
+      ],
+      "mask": "/assets/cibu/mask/pose_jump.png"
+    },
+    "pose/dance": {
+      "file": "/assets/cibu/pose/dance.webp",
+      "label": "Nge-dance",
+      "group": "pose",
+      "w": 280,
+      "h": 284,
+      "anchor": [
+        0.4714,
+        0.9296
+      ],
+      "body": [
+        0.1071,
+        0.2113,
+        0.8571,
+        0.9155,
+        0.5012
+      ],
+      "mask": "/assets/cibu/mask/pose_dance.png"
+    },
+    "pose/thumbsup": {
+      "file": "/assets/cibu/pose/thumbsup.webp",
+      "label": "Angkat Jempol",
+      "group": "pose",
+      "w": 304,
+      "h": 272,
+      "anchor": [
+        0.5,
+        0.9265
+      ],
+      "body": [
+        0.0789,
+        0.2169,
+        0.9243,
+        0.9118,
+        0.4605
+      ],
+      "mask": "/assets/cibu/mask/pose_thumbsup.png"
+    },
+    "outfit/cap_sling": {
+      "file": "/assets/cibu/outfit/cap_sling.webp",
+      "label": "Topi baseball + sling bag",
+      "group": "outfit",
+      "w": 268,
+      "h": 260,
+      "anchor": [
+        0.5,
+        0.9231
+      ]
+    },
+    "outfit/beanie_sweater": {
+      "file": "/assets/cibu/outfit/beanie_sweater.webp",
+      "label": "Beanie + sweater",
+      "group": "outfit",
+      "w": 260,
+      "h": 260,
+      "anchor": [
+        0.5,
+        0.9231
+      ]
+    },
+    "outfit/beanie_navy": {
+      "file": "/assets/cibu/outfit/beanie_navy.webp",
+      "label": "Beanie navy + rok",
+      "group": "outfit",
+      "w": 268,
+      "h": 272,
+      "anchor": [
+        0.5,
+        0.9265
+      ]
+    },
+    "outfit/bucket_skirt": {
+      "file": "/assets/cibu/outfit/bucket_skirt.webp",
+      "label": "Bucket hat + rok",
+      "group": "outfit",
+      "w": 260,
+      "h": 264,
+      "anchor": [
+        0.5,
+        0.9242
+      ]
+    },
+    "outfit/sunnies_beret": {
+      "file": "/assets/cibu/outfit/sunnies_beret.webp",
+      "label": "Baret + kacamata hitam",
+      "group": "outfit",
+      "w": 260,
+      "h": 268,
+      "anchor": [
+        0.5,
+        0.9254
+      ]
+    },
+    "outfit/cap_orange": {
+      "file": "/assets/cibu/outfit/cap_orange.webp",
+      "label": "Topi + rok",
+      "group": "outfit",
+      "w": 292,
+      "h": 288,
+      "anchor": [
+        0.5,
+        0.9306
+      ]
+    },
+    "outfit/bow_pleat": {
+      "file": "/assets/cibu/outfit/bow_pleat.webp",
+      "label": "Pita + rok plisket",
+      "group": "outfit",
+      "w": 292,
+      "h": 288,
+      "anchor": [
+        0.5,
+        0.9306
+      ]
+    },
+    "outfit/frog_scarf": {
+      "file": "/assets/cibu/outfit/frog_scarf.webp",
+      "label": "Bando katak + scarf",
+      "group": "outfit",
+      "w": 300,
+      "h": 280,
+      "anchor": [
+        0.5,
+        0.9286
+      ]
+    },
+    "outfit/beret_love": {
+      "file": "/assets/cibu/outfit/beret_love.webp",
+      "label": "Baret + love",
+      "group": "outfit",
+      "w": 348,
+      "h": 272,
+      "anchor": [
+        0.5575,
+        0.9265
+      ]
+    },
+    "outfit/beret_red": {
+      "file": "/assets/cibu/outfit/beret_red.webp",
+      "label": "Baret merah",
+      "group": "outfit",
+      "w": 304,
+      "h": 288,
+      "anchor": [
+        0.5,
+        0.9306
+      ]
+    },
+    "wear/bucket": {
+      "file": "/assets/cibu/wear/bucket.webp",
+      "label": "Topi Bucket",
+      "group": "wear",
+      "w": 264,
+      "h": 212,
+      "anchor": [
+        0.5,
+        0.9057
+      ]
+    },
+    "wear/beanie": {
+      "file": "/assets/cibu/wear/beanie.webp",
+      "label": "Beanie",
+      "group": "wear",
+      "w": 244,
+      "h": 228,
+      "anchor": [
+        0.5,
+        0.9123
+      ]
+    },
+    "wear/cap": {
+      "file": "/assets/cibu/wear/cap.webp",
+      "label": "Topi Baseball",
+      "group": "wear",
+      "w": 264,
+      "h": 188,
+      "anchor": [
+        0.5,
+        0.8936
+      ]
+    },
+    "wear/headband": {
+      "file": "/assets/cibu/wear/headband.webp",
+      "label": "Headband",
+      "group": "wear",
+      "w": 276,
+      "h": 212,
+      "anchor": [
+        0.5,
+        0.9057
+      ]
+    },
+    "wear/sunglasses": {
+      "file": "/assets/cibu/wear/sunglasses.webp",
+      "label": "Kacamata Hitam",
+      "group": "wear",
+      "w": 280,
+      "h": 176,
+      "anchor": [
+        0.5,
+        0.8864
+      ]
+    },
+    "wear/bow": {
+      "file": "/assets/cibu/wear/bow.webp",
+      "label": "Pita",
+      "group": "wear",
+      "w": 212,
+      "h": 204,
+      "anchor": [
+        0.5,
+        0.902
+      ]
+    },
+    "wear/headphone_w": {
+      "file": "/assets/cibu/wear/headphone_w.webp",
+      "label": "Headphone",
+      "group": "wear",
+      "w": 252,
+      "h": 244,
+      "anchor": [
+        0.5,
+        0.918
+      ]
+    },
+    "wear/beret": {
+      "file": "/assets/cibu/wear/beret.webp",
+      "label": "Baret",
+      "group": "wear",
+      "w": 260,
+      "h": 168,
+      "anchor": [
+        0.5,
+        0.881
+      ]
+    },
+    "wear/slingbag": {
+      "file": "/assets/cibu/wear/slingbag.webp",
+      "label": "Sling Bag",
+      "group": "wear",
+      "w": 228,
+      "h": 236,
+      "anchor": [
+        0.5,
+        0.9153
+      ]
+    },
+    "wear/scarf": {
+      "file": "/assets/cibu/wear/scarf.webp",
+      "label": "Scarf",
+      "group": "wear",
+      "w": 216,
+      "h": 224,
+      "anchor": [
+        0.5,
+        0.9107
+      ]
+    },
+    "wear/watch": {
+      "file": "/assets/cibu/wear/watch.webp",
+      "label": "Jam Tangan",
+      "group": "wear",
+      "w": 172,
+      "h": 220,
+      "anchor": [
+        0.5,
+        0.9091
+      ]
+    },
+    "wear/frogband": {
+      "file": "/assets/cibu/wear/frogband.webp",
+      "label": "Bando Katak",
+      "group": "wear",
+      "w": 236,
+      "h": 236,
+      "anchor": [
+        0.5,
+        0.9153
+      ]
+    },
+    "wear/skirt": {
+      "file": "/assets/cibu/wear/skirt.webp",
+      "label": "Rok Basic",
+      "group": "wear",
+      "w": 248,
+      "h": 204,
+      "anchor": [
+        0.5,
+        0.902
+      ]
+    },
+    "wear/pleated": {
+      "file": "/assets/cibu/wear/pleated.webp",
+      "label": "Rok Plisket",
+      "group": "wear",
+      "w": 252,
+      "h": 212,
+      "anchor": [
+        0.5,
+        0.9057
+      ]
+    },
+    "wear/kerchief": {
+      "file": "/assets/cibu/wear/kerchief.webp",
+      "label": "Kerchief",
+      "group": "wear",
+      "w": 244,
+      "h": 196,
+      "anchor": [
+        0.5,
+        0.898
+      ]
+    },
+    "wear/sweater": {
+      "file": "/assets/cibu/wear/sweater.webp",
+      "label": "Sweater",
+      "group": "wear",
+      "w": 260,
+      "h": 228,
+      "anchor": [
+        0.5,
+        0.9123
+      ]
+    },
+    "prop/book": {
+      "file": "/assets/cibu/prop/book.webp",
+      "label": "Buku",
+      "group": "prop",
+      "w": 236,
+      "h": 168,
+      "anchor": [
+        0.5,
+        0.881
+      ]
+    },
+    "prop/laptop": {
+      "file": "/assets/cibu/prop/laptop.webp",
+      "label": "Laptop",
+      "group": "prop",
+      "w": 292,
+      "h": 204,
+      "anchor": [
+        0.5,
+        0.902
+      ]
+    },
+    "prop/drink": {
+      "file": "/assets/cibu/prop/drink.webp",
+      "label": "Minuman",
+      "group": "prop",
+      "w": 164,
+      "h": 240,
+      "anchor": [
+        0.5,
+        0.9167
+      ]
+    },
+    "prop/notes": {
+      "file": "/assets/cibu/prop/notes.webp",
+      "label": "Notes",
+      "group": "prop",
+      "w": 208,
+      "h": 216,
+      "anchor": [
+        0.5,
+        0.9074
+      ]
+    },
+    "prop/headphone": {
+      "file": "/assets/cibu/prop/headphone.webp",
+      "label": "Headphone",
+      "group": "prop",
+      "w": 208,
+      "h": 224,
+      "anchor": [
+        0.5,
+        0.9107
+      ]
+    },
+    "prop/pencil": {
+      "file": "/assets/cibu/prop/pencil.webp",
+      "label": "Pensil",
+      "group": "prop",
+      "w": 112,
+      "h": 192,
+      "anchor": [
+        0.5,
+        0.8958
+      ]
+    },
+    "prop/backpack": {
+      "file": "/assets/cibu/prop/backpack.webp",
+      "label": "Backpack",
+      "group": "prop",
+      "w": 240,
+      "h": 256,
+      "anchor": [
+        0.5,
+        0.9219
+      ]
+    },
+    "prop/lamp": {
+      "file": "/assets/cibu/prop/lamp.webp",
+      "label": "Lampu Meja",
+      "group": "prop",
+      "w": 220,
+      "h": 236,
+      "anchor": [
+        0.5,
+        0.9153
+      ]
+    },
+    "prop/plant": {
+      "file": "/assets/cibu/prop/plant.webp",
+      "label": "Plant",
+      "group": "prop",
+      "w": 180,
+      "h": 204,
+      "anchor": [
+        0.5,
+        0.902
+      ]
+    },
+    "prop/camera": {
+      "file": "/assets/cibu/prop/camera.webp",
+      "label": "Kamera",
+      "group": "prop",
+      "w": 196,
+      "h": 176,
+      "anchor": [
+        0.5,
+        0.8864
+      ]
+    },
+    "prop/snack": {
+      "file": "/assets/cibu/prop/snack.webp",
+      "label": "Snack Sehat",
+      "group": "prop",
+      "w": 216,
+      "h": 176,
+      "anchor": [
+        0.5,
+        0.8864
+      ]
+    },
+    "prop/clock": {
+      "file": "/assets/cibu/prop/clock.webp",
+      "label": "Jam Meja",
+      "group": "prop",
+      "w": 192,
+      "h": 196,
+      "anchor": [
+        0.5,
+        0.898
+      ]
+    },
+    "layer/beanie": {
+      "file": "/assets/cibu/layer/beanie.webp",
+      "label": "Beanie",
+      "group": "layer",
+      "w": 207,
+      "h": 190,
+      "anchor": [
+        0.5,
+        1
+      ]
+    },
+    "layer/bucket": {
+      "file": "/assets/cibu/layer/bucket.webp",
+      "label": "Topi Bucket",
+      "group": "layer",
+      "w": 228,
+      "h": 163,
+      "anchor": [
+        0.5,
+        1
+      ]
+    },
+    "layer/cap": {
+      "file": "/assets/cibu/layer/cap.webp",
+      "label": "Topi Baseball",
+      "group": "layer",
+      "w": 227,
+      "h": 151,
+      "anchor": [
+        0.5,
+        1
+      ]
+    },
+    "layer/headband": {
+      "file": "/assets/cibu/layer/headband.webp",
+      "label": "Headband",
+      "group": "layer",
+      "w": 237,
+      "h": 113,
+      "anchor": [
+        0.5,
+        1
+      ]
+    },
+    "layer/beret": {
+      "file": "/assets/cibu/layer/beret.webp",
+      "label": "Baret",
+      "group": "layer",
+      "w": 224,
+      "h": 133,
+      "anchor": [
+        0.5,
+        1
+      ]
+    },
+    "layer/bow": {
+      "file": "/assets/cibu/layer/bow.webp",
+      "label": "Pita",
+      "group": "layer",
+      "w": 174,
+      "h": 167,
+      "anchor": [
+        0.5,
+        1
+      ]
+    },
+    "layer/headphone_w": {
+      "file": "/assets/cibu/layer/headphone_w.webp",
+      "label": "Headphone",
+      "group": "layer",
+      "w": 213,
+      "h": 206,
+      "anchor": [
+        0.5,
+        1
+      ]
+    },
+    "layer/frogband": {
+      "file": "/assets/cibu/layer/frogband.webp",
+      "label": "Bando Katak",
+      "group": "layer",
+      "w": 199,
+      "h": 198,
+      "anchor": [
+        0.5,
+        1
+      ]
+    },
+    "layer/sunglasses": {
+      "file": "/assets/cibu/layer/sunglasses.webp",
+      "label": "Kacamata Hitam",
+      "group": "layer",
+      "w": 245,
+      "h": 138,
+      "anchor": [
+        0.5,
+        1
+      ]
+    },
+    "layer/scarf": {
+      "file": "/assets/cibu/layer/scarf.webp",
+      "label": "Scarf",
+      "group": "layer",
+      "w": 176,
+      "h": 187,
+      "anchor": [
+        0.5,
+        1
+      ]
+    },
+    "layer/kerchief": {
+      "file": "/assets/cibu/layer/kerchief.webp",
+      "label": "Kerchief",
+      "group": "layer",
+      "w": 206,
+      "h": 160,
+      "anchor": [
+        0.5,
+        1
+      ]
+    },
+    "layer/pleated": {
+      "file": "/assets/cibu/layer/pleated.webp",
+      "label": "Rok Plisket",
+      "group": "layer",
+      "w": 213,
+      "h": 175,
+      "anchor": [
+        0.5,
+        1
+      ]
+    },
+    "layer/skirt": {
+      "file": "/assets/cibu/layer/skirt.webp",
+      "label": "Rok Basic",
+      "group": "layer",
+      "w": 211,
+      "h": 167,
+      "anchor": [
+        0.5,
+        1
+      ]
+    }
+  }
+}

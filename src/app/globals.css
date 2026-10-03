@@ -1,0 +1,71 @@
+@import "tailwindcss";
+
+/* Cibu palette — sampled from the official character reference sheet */
+@theme {
+  --font-sans: "Nunito Variable", ui-rounded, system-ui, -apple-system, "Segoe UI", sans-serif;
+  --color-cibu: #ff781d;
+  --color-cibu-deep: #e8620a;
+  --color-sun: #fdbf2e;
+  --color-teal: #81ccd0;
+  --color-blush: #fd919f;
+  --color-leaf: #b0ce6b;
+  --color-lilac: #d4bde2;
+  --color-cream: #fbf4ec;
+  --color-ink: #3b2717;
+  --color-ink-soft: #7a6553;
+
+  --animate-toast-in: toast-in 0.45s cubic-bezier(0.2, 0.9, 0.25, 1.2) both;
+  --animate-cibu-walk: cibu-walk 0.9s ease-in-out infinite;
+
+  @keyframes toast-in {
+    from { opacity: 0; transform: translateY(-10px) scale(0.96); }
+    to { opacity: 1; transform: none; }
+  }
+  @keyframes cibu-walk {
+    0%, 100% { transform: translateY(0) rotate(-3deg); }
+    50% { transform: translateY(-10px) rotate(3deg); }
+  }
+}
+
+@keyframes eq {
+  0%, 100% { transform: scaleY(0.4); }
+  50% { transform: scaleY(1); }
+}
+
+@utility glass {
+  background: rgb(255 250 243 / 0.72);
+  -webkit-backdrop-filter: blur(18px) saturate(1.5);
+  backdrop-filter: blur(18px) saturate(1.5);
+  border: 1px solid rgb(255 255 255 / 0.65);
+  box-shadow: inset 0 1px 0 rgb(255 255 255 / 0.7), 0 10px 30px -12px rgb(70 40 15 / 0.28);
+}
+
+@utility glass-strong {
+  background: rgb(255 249 241 / 0.9);
+  -webkit-backdrop-filter: blur(24px) saturate(1.5);
+  backdrop-filter: blur(24px) saturate(1.5);
+  border: 1px solid rgb(255 255 255 / 0.8);
+  box-shadow: inset 0 1px 0 rgb(255 255 255 / 0.8), 0 24px 60px -20px rgb(70 40 15 / 0.4);
+}
+
+html,
+body {
+  height: 100%;
+  overflow: hidden;
+  overscroll-behavior: none;
+  background: var(--color-cream);
+  color: var(--color-ink);
+  -webkit-tap-highlight-color: transparent;
+}
+
+:focus-visible {
+  outline: 3px solid color-mix(in srgb, var(--color-cibu) 70%, white);
+  outline-offset: 2px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+  }
+}

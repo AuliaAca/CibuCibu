@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="290" height="160" viewBox="0 0 290 160">
+<defs><linearGradient id="b" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#9fa3b8"/><stop offset="1" stop-color="#6c7086"/></linearGradient><linearGradient id="br" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#7c8098"/><stop offset="1" stop-color="#555970"/></linearGradient>
+  <pattern id="tw" width="12" height="12" patternUnits="userSpaceOnUse"><path d="M0 6 H12 M6 0 V12" stroke="#fff" stroke-width="1.2" opacity=".14"/></pattern></defs>
+  <path d="M26 112 C 10 62 70 20 152 22 C 232 24 282 62 262 110 Z" fill="url(#b)" stroke="#3c3f52" stroke-width="5" stroke-linejoin="round"/>
+  <path d="M26 112 C 10 62 70 20 152 22 C 232 24 282 62 262 110 Z" fill="url(#tw)"/>
+  <g fill="none" stroke="#3c3f52" stroke-width="2.5" opacity=".35"><path d="M150 24 Q110 60 88 108"/><path d="M152 24 Q196 60 214 108"/></g>
+  <circle cx="151" cy="26" r="8" fill="url(#b)" stroke="#3c3f52" stroke-width="4"/>
+  <path d="M60 58 Q94 34 130 32" fill="none" stroke="#fff" stroke-width="7" stroke-linecap="round" opacity=".28"/>
+  <path d="M56 106 Q146 128 236 106 L236 116 Q146 140 56 116 Z" fill="#5d6176" stroke="#3c3f52" stroke-width="4" stroke-linejoin="round"/>
+  <path d="M72 116 Q146 142 222 116 Q216 146 146 152 Q80 146 72 116 Z" fill="url(#br)" stroke="#3c3f52" stroke-width="5" stroke-linejoin="round"/>
+</svg>

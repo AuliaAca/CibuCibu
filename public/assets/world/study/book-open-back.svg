@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="300" height="230" viewBox="0 0 300 230">
+  <defs>
+    <linearGradient id="cl" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#3f7f6a"/><stop offset="1" stop-color="#5aa289"/></linearGradient>
+    <linearGradient id="cr" x1="1" y1="0" x2="0" y2="0"><stop offset="0" stop-color="#3f7f6a"/><stop offset="1" stop-color="#5aa289"/></linearGradient>
+  </defs>
+  <!-- page edges peeking above the covers (the pages face Cibu) -->
+  <path d="M150 20 L40 34 L44 46 L150 34 L256 46 L260 34 Z" fill="#fff6e4" stroke="#b9a68a" stroke-width="3" stroke-linejoin="round"/>
+  <path d="M60 36 L150 26 M150 26 L240 36" stroke="#d9c9ae" stroke-width="2"/>
+  <!-- covers, opened like a tent towards Cibu -->
+  <path d="M150 30 L34 44 Q26 46 27 55 L34 196 Q35 206 45 205 L150 214 Z" fill="url(#cl)" stroke="#2c5c4c" stroke-width="6" stroke-linejoin="round"/>
+  <path d="M150 30 L266 44 Q274 46 273 55 L266 196 Q265 206 255 205 L150 214 Z" fill="url(#cr)" stroke="#2c5c4c" stroke-width="6" stroke-linejoin="round"/>
+  <path d="M150 30 L150 214" stroke="#2c5c4c" stroke-width="10" stroke-linecap="round"/>
+  <path d="M36 150 L150 158 L264 150" fill="none" stroke="#f7d84b" stroke-width="12" stroke-linejoin="round"/>
+  <path d="M46 70 L118 64" stroke="#fff" stroke-width="6" stroke-linecap="round" opacity=".35"/>
+  <path d="M190 90 C 198 82 208 86 206 96 C 214 94 218 104 210 110 L 200 118 L 190 108 C 182 104 184 94 190 90 Z" fill="#fd919f" stroke="#c75a74" stroke-width="3" transform="rotate(10 200 100)"/>
+</svg>

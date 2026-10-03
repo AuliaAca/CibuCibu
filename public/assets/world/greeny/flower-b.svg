@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="70" height="120" viewBox="0 0 70 120">
+  <path d="M35 120 C 36 94 32 66 35 38" stroke="#5f9e44" stroke-width="4" fill="none" stroke-linecap="round"/>
+  <path d="M35 86 C 50 80 58 70 60 60 C 46 62 38 72 35 86 Z" fill="#78b957"/>
+  <g transform="translate(35 30)">
+    <g fill="#fffaf3"><ellipse rx="7" ry="14" cy="-13"/><ellipse rx="7" ry="14" cy="-13" transform="rotate(45)"/><ellipse rx="7" ry="14" cy="-13" transform="rotate(90)"/><ellipse rx="7" ry="14" cy="-13" transform="rotate(135)"/><ellipse rx="7" ry="14" cy="-13" transform="rotate(180)"/><ellipse rx="7" ry="14" cy="-13" transform="rotate(225)"/><ellipse rx="7" ry="14" cy="-13" transform="rotate(270)"/><ellipse rx="7" ry="14" cy="-13" transform="rotate(315)"/></g>
+    <circle r="8" fill="#fdbf2e"/>
+  </g>
+</svg>

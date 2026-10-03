@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="200" viewBox="0 0 200 200">
+  <defs><radialGradient id="s" cx=".38" cy=".32" r=".8"><stop offset="0" stop-color="#ff8a9a"/><stop offset=".55" stop-color="#f0475f"/><stop offset="1" stop-color="#c22c48"/></radialGradient></defs>
+  <ellipse cx="100" cy="182" rx="46" ry="8" fill="#5a3a20" opacity=".16"/>
+  <path d="M100 172c-30-18-64-58-58-94 4-22 30-30 58-30s54 8 58 30c6 36-28 76-58 94z" fill="url(#s)" stroke="#a3233d" stroke-width="4" stroke-linejoin="round"/>
+  <g fill="#ffe29a"><ellipse cx="74" cy="86" rx="3" ry="4.5"/><ellipse cx="100" cy="80" rx="3" ry="4.5"/><ellipse cx="126" cy="86" rx="3" ry="4.5"/><ellipse cx="86" cy="110" rx="3" ry="4.5"/><ellipse cx="114" cy="110" rx="3" ry="4.5"/><ellipse cx="100" cy="134" rx="3" ry="4.5"/><ellipse cx="70" cy="112" rx="2.5" ry="4"/><ellipse cx="130" cy="112" rx="2.5" ry="4"/><ellipse cx="88" cy="150" rx="2.5" ry="4"/><ellipse cx="112" cy="150" rx="2.5" ry="4"/></g>
+  <path d="M100 58l-14-18 4 20-22-6 16 14-18 8 22 2 12-4 12 4 22-2-18-8 16-14-22 6 4-20z" fill="#78b957" stroke="#4f8a3c" stroke-width="3" stroke-linejoin="round"/>
+  <path d="M100 40v-16" stroke="#4f8a3c" stroke-width="6" stroke-linecap="round"/>
+  <ellipse cx="68" cy="78" rx="7" ry="14" fill="#fff" opacity=".4" transform="rotate(20 68 78)"/>
+</svg>

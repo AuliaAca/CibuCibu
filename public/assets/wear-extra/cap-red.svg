@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="280" height="160" viewBox="0 0 280 160">
+<defs><linearGradient id="b" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#f0555a"/><stop offset="1" stop-color="#c12f3c"/></linearGradient><linearGradient id="br" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#c12f3c"/><stop offset="1" stop-color="#f0555a"/></linearGradient></defs>
+  
+  <path d="M40 124 C 36 52 86 18 140 18 C 194 18 242 52 240 124 Z" fill="url(#b)" stroke="#7e1822" stroke-width="5" stroke-linejoin="round"/>
+  <g fill="none" stroke="#7e1822" stroke-width="2.5" opacity=".35"><path d="M140 20 Q118 70 110 122"/><path d="M140 20 Q164 70 172 122"/></g>
+  <circle cx="140" cy="20" r="8" fill="url(#b)" stroke="#7e1822" stroke-width="4"/>
+  <path d="M70 52 Q96 32 126 30" fill="none" stroke="#fff" stroke-width="7" stroke-linecap="round" opacity=".3"/>
+  <path d="M140 58 C 124 58 118 72 118 84 L162 84 C 162 72 156 58 140 58 Z" fill="none" stroke="#ffd45a" stroke-width="7" stroke-linejoin="round"/>
+  <path d="M40 120 Q140 140 240 120 L240 132 Q140 152 40 132 Z" fill="#c12f3c" stroke="#7e1822" stroke-width="4" stroke-linejoin="round"/>
+  
+  <path d="M150 116 C 206 104 268 110 278 132 C 266 150 204 146 150 140 Z" fill="url(#br)" stroke="#7e1822" stroke-width="5" stroke-linejoin="round"/>
+</svg>

@@ -1,0 +1,44 @@
+{
+  "_doc": "Maps the official Cibu character reference sheet to named sprites. Each entry is the approximate top-left (x,y) of the sprite in the 1098x688 sheet; slice_sheet.py snaps to the detected component. Replace the sheet with a higher-res export and scale these via 'scale'.",
+  "sheet": "reference/cibu_character_sheet.png",
+  "scale": 1,
+  "groups": {
+    "expression": [
+      ["smug", 11, 37, "Ngeledek / Nyebelin"], ["smirk", 88, 38, "Senyum Sinis"], ["genz", 163, 38, "Ejekan Gen Z"], ["crosseyed", 238, 38, "Mata Juling"], ["tongue", 312, 38, "Tongue Out"],
+      ["lazy", 11, 138, "Mager Banget"], ["sleepy", 90, 139, "Ngantuk"], ["annoyed", 164, 139, "Kesel / Bad Mood"], ["frown", 238, 139, "Cemberut"], ["pout", 310, 138, "Pouting"],
+      ["shocked", 12, 244, "Kaget"], ["panic", 88, 245, "Panik"], ["sad", 162, 242, "Sedih"], ["crying", 239, 244, "Nangis Drama"], ["touched", 312, 244, "Terharu"],
+      ["focus", 12, 346, "Fokus Serius"], ["thinking", 89, 346, "Thinking"], ["confused", 160, 347, "Bingung"], ["spirited", 234, 346, "Semangat!"], ["finally", 309, 346, "Akhirnya!"],
+      ["proud", 11, 444, "Proud"], ["aesthetic", 91, 447, "Aesthetic Pose"], ["omg", 163, 447, "OMG!"], ["love", 238, 446, "Love You!"], ["cool", 311, 446, "Cool Banget"]
+    ],
+    "focus_start": [
+      ["heh", 405, 32, "Heh, fokus dong"], ["ngapain", 487, 44, "Ngapain sih?"], ["fokuslah", 565, 46, "Fokus lah bro"], ["nodistract", 638, 46, "Jangan distrack!"], ["timer", 714, 46, "Udah timer loh!"]
+    ],
+    "focusing": [
+      ["okefine", 399, 165, "Oke fine, gw temenin"], ["serius", 475, 165, "Serius dikit lah"], ["study", 551, 165, "Study mode ON"], ["maximal", 634, 162, "Fokus maksimal!"], ["donotdisturb", 715, 164, "Jangan ganggu!"]
+    ],
+    "almost": [
+      ["bentar", 406, 286, "Wahh bentar lagi!"], ["tinggaldikit", 499, 286, "Tinggal dikit!"], ["almostthere", 598, 281, "Almost there!"], ["semangatdikit", 692, 281, "Semangat dikit lagi!"]
+    ],
+    "complete": [
+      ["yeay", 402, 399, "YEAY! LO KEREN!"], ["proudofyou", 482, 397, "Proud of youu!"], ["gokil", 558, 408, "GOKIL! FOKUS BANGET!"], ["bestie", 640, 403, "BESTIE, MAKASIH YA!"], ["youdidit", 720, 402, "YOU DID IT!"]
+    ],
+    "pose": [
+      ["sit", 398, 529, "Duduk Santai"], ["sleep", 459, 539, "Tidur"], ["walk", 523, 528, "Jalan"], ["jump", 578, 517, "Lompat"], ["dance", 644, 518, "Nge-dance"], ["thumbsup", 724, 521, "Angkat Jempol"]
+    ],
+    "outfit": [
+      ["cap_sling", 309, 623, "Topi baseball + sling bag"], ["beanie_sweater", 386, 623, "Beanie + sweater"], ["beanie_navy", 453, 620, "Beanie navy + rok"], ["bucket_skirt", 525, 623, "Bucket hat + rok"], ["sunnies_beret", 598, 621, "Baret + kacamata hitam"],
+      ["cap_orange", 665, 616, "Topi + rok"], ["bow_pleat", 740, 616, "Pita + rok plisket"], ["frog_scarf", 816, 616, "Bando katak + scarf"], ["beret_love", 896, 618, "Baret + love"], ["beret_red", 985, 614, "Baret merah"]
+    ],
+    "wear": [
+      ["bucket", 816, 21, "Topi Bucket"], ["beanie", 885, 14, "Beanie"], ["cap", 946, 23, "Topi Baseball"], ["headband", 1014, 21, "Headband"],
+      ["sunglasses", 821, 106, "Kacamata Hitam"], ["bow", 891, 96, "Pita"], ["headphone_w", 945, 96, "Headphone"], ["beret", 1014, 103, "Baret"],
+      ["slingbag", 825, 180, "Sling Bag"], ["scarf", 892, 181, "Scarf"], ["watch", 955, 183, "Jam Tangan"], ["frogband", 1011, 176, "Bando Katak"],
+      ["skirt", 818, 263, "Rok Basic"], ["pleated", 885, 262, "Rok Plisket"], ["kerchief", 952, 266, "Kerchief"], ["sweater", 1017, 261, "Sweater"]
+    ],
+    "prop": [
+      ["book", 820, 385, "Buku"], ["laptop", 886, 378, "Laptop"], ["drink", 961, 373, "Minuman"], ["notes", 1014, 378, "Notes"],
+      ["headphone", 823, 451, "Headphone"], ["pencil", 896, 446, "Pensil"], ["backpack", 949, 446, "Backpack"], ["lamp", 1017, 451, "Lampu Meja"],
+      ["plant", 824, 527, "Plant"], ["camera", 888, 533, "Kamera"], ["snack", 951, 533, "Snack Sehat"], ["clock", 1019, 527, "Jam Meja"]
+    ]
+  }
+}

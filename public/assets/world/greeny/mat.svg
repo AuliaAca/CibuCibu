@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="560" height="170" viewBox="0 0 560 170">
+  <defs>
+    <clipPath id="m"><path d="M70 10 L490 10 C 530 10 556 40 556 80 L 540 130 C 530 156 506 164 470 164 L 90 164 C 54 164 30 156 20 130 L 4 80 C 4 40 30 10 70 10 Z"/></clipPath>
+    <linearGradient id="sh" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#fff" stop-opacity=".25"/><stop offset="1" stop-color="#7a4a20" stop-opacity=".12"/></linearGradient>
+  </defs>
+  <ellipse cx="280" cy="150" rx="280" ry="22" fill="#4f7d35" opacity=".28"/>
+  <g clip-path="url(#m)">
+    <rect width="560" height="170" fill="#fff6ea"/>
+    <g fill="#ffb877" opacity=".55">
+      <path d="M60 0 L110 0 L96 170 L30 170 Z"/><path d="M190 0 L240 0 L236 170 L170 170 Z"/><path d="M320 0 L370 0 L380 170 L316 170 Z"/><path d="M450 0 L500 0 L528 170 L462 170 Z"/>
+    </g>
+    <g fill="#ffb877" opacity=".45"><rect y="36" width="560" height="26"/><rect y="104" width="560" height="30"/></g>
+    <rect width="560" height="170" fill="url(#sh)"/>
+  </g>
+  <path d="M70 10 L490 10 C 530 10 556 40 556 80 L 540 130 C 530 156 506 164 470 164 L 90 164 C 54 164 30 156 20 130 L 4 80 C 4 40 30 10 70 10 Z" fill="none" stroke="#f0a060" stroke-width="3" opacity=".6"/>
+</svg>

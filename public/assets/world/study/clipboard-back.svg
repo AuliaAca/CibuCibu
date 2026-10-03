@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="210" height="270" viewBox="0 0 210 270">
+  <defs><linearGradient id="b" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#d49a60"/><stop offset=".6" stop-color="#b9824d"/><stop offset="1" stop-color="#9c6a3c"/></linearGradient></defs>
+  <!-- the paper (facing Cibu) peeks out at the edges -->
+  <rect x="30" y="30" width="160" height="220" rx="10" fill="#fff9ee" stroke="#c9b8a0" stroke-width="3"/>
+  <rect x="14" y="26" width="170" height="236" rx="18" fill="url(#b)" stroke="#6e4726" stroke-width="6"/>
+  <path d="M30 60 C 60 58 80 70 110 66 M34 120 C 70 116 100 128 150 122 M28 190 C 60 186 110 196 160 190" stroke="#8a5a30" stroke-width="3" fill="none" opacity=".35" stroke-linecap="round"/>
+  <rect x="64" y="10" width="72" height="32" rx="10" fill="#cfd4dc" stroke="#6c717b" stroke-width="5"/>
+  <circle cx="100" cy="24" r="6" fill="#8e949e"/>
+  <path d="M60 150 C 48 138 54 124 66 130 C 78 122 86 136 74 148 L 68 156 Z" fill="#fd919f" stroke="#c75a74" stroke-width="3"/>
+  <path d="M130 196 L135 207 L147 208 L138 215 L141 227 L130 220 L119 227 L122 215 L113 208 L125 207 Z" fill="#fdbf2e" stroke="#c8901a" stroke-width="3"/>
+</svg>
